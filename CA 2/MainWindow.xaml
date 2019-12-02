@@ -15,10 +15,11 @@
         <ListBox x:Name="lbxCart" HorizontalAlignment="Left" Height="257" Margin="97,91,0,0" VerticalAlignment="Top" Width="205" RenderTransformOrigin="0.573,0.505" Grid.Column="1"/>
         <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="378,150,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.32,0.294" Grid.ColumnSpan="2"/>
         <Button x:Name="btnRemove" Content="Remove" HorizontalAlignment="Left" Margin="378,261,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.45,0.159" Grid.ColumnSpan="2"/>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="31,124,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="31,168,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="31,207,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="31,249,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="144,52,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.569,1.439"/>
+        <RadioButton x:Name="All" Content="All" HorizontalAlignment="Left" Margin="31,124,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Land" Content="Land" HorizontalAlignment="Left" Margin="31,168,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Water" Content="Water" HorizontalAlignment="Left" Margin="31,207,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Air" Content="Air" HorizontalAlignment="Left" Margin="31,249,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="actBox" HorizontalAlignment="Left" Height="23" Margin="144,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.569,1.439" Text="All Activitys"/>
+        <TextBox x:Name="actSelected" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="97,52,0,0" TextWrapping="Wrap" Text="Activitys Selected" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Window>
